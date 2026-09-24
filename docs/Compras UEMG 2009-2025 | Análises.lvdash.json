@@ -417,7 +417,7 @@
               "lines": [
                 "# 📊 Compras UEMG · 2009–2025\n",
                 "\n",
-                "Este painel apresenta uma análise dos gastos da **Universidade do Estado de Minas Gerais (UEMG)**, obtidos a partir do **Dataset de Dados Públicos** disponibilizado no **Portal de Compras do Estado de Minas Gerais**. Os dados foram coletados, tratados e enriquecidos em um pipeline de dados estruturado em camadas (bronze → silver → gold) para garantir qualidade e rastreabilidade.\n",
+                "Este painel apresenta uma análise dos gastos da **Universidade do Estado de Minas Gerais (UEMG)**, obtidos a partir do **Dataset de Dados Públicos** disponibilizado no **Portal de Dados Abertos do Estado de Minas Gerais**. Os dados foram coletados, tratados e enriquecidos em um pipeline de dados estruturado em camadas (bronze → silver → gold) para garantir qualidade e rastreabilidade.\n",
                 "\n",
                 "Ao longo de **17 anos**, foram consolidados **13.542 itens homologados** que somam **R$ 653,9 milhões** em valores homologados, abrangendo compras, contratos e empenhos. A análise oferece recortes por **ano de homologação**, **natureza de despesa**, **distribuição geográfica** e **benchmark de preços**.\n",
                 "\n",
