@@ -417,7 +417,7 @@
               "lines": [
                 "# 📊 Compras UEMG · 2009–2025\n",
                 "\n",
-                "Este painel apresenta uma análise dos gastos da **Universidade do Estado de Minas Gerais (UEMG)**, obtidos a partir do **Dataset de Dados Públicos** disponibilizado no **Portal da Transparência do Governo de Minas Gerais**. Os dados foram coletados, tratados e enriquecidos em um pipeline de dados estruturado em camadas (bronze → silver → gold) para garantir qualidade e rastreabilidade.\n",
+                "Este painel apresenta uma análise dos gastos da **Universidade do Estado de Minas Gerais (UEMG)**, obtidos a partir do **Dataset de Dados Públicos** disponibilizado no **Portal de Compras do Estado de Minas Gerais**. Os dados foram coletados, tratados e enriquecidos em um pipeline de dados estruturado em camadas (bronze → silver → gold) para garantir qualidade e rastreabilidade.\n",
                 "\n",
                 "Ao longo de **17 anos**, foram consolidados **13.542 itens homologados** que somam **R$ 653,9 milhões** em valores homologados, abrangendo compras, contratos e empenhos. A análise oferece recortes por **ano de homologação**, **natureza de despesa**, **distribuição geográfica** e **benchmark de preços**.\n",
                 "\n",
@@ -442,7 +442,7 @@
                 "| Período | Observação |\n",
                 "| --- | --- |\n",
                 "| **Pico em 2021** | Maiores valores do período: **R$ 156,7 mi** homologados e **R$ 208,2 mi** atualizados, com salto expressivo frente aos anos anteriores. |\n",
-                "| **Valores atualizados > homologados** | Em todos os anos, o valor atualizado supera o homologado, refletindo aditivos contratuais e reajustes. A diferença mais expressiva ocorreu em **2009**: o atualizado (R$ 32,6 mi) foi **3× maior** que o homologado (R$ 10,8 mi). |\n",
+                "| **Valores atualizados > homologados** | Em todos os anos, o valor atualizado supera o homologado, refletindo aditivos contratuais e reajustes. A diferença mais expressiva ocorreu em **2009**: o atualizado (R$ 32,6 mi) foi **3× maior** que o homologado (R$ 10,8 mi). A diferença tende a ser maior nos anos mais antigos, que tiveram mais tempo para acumular aditivos e reajustes. |\n",
                 "| **Tendência recente** | Após o pico de 2021, há redução em 2022–2024. O ano de **2025** registra R$ 9,9 mi homologados até o momento. |"
               ]
             }
@@ -505,7 +505,7 @@
               "lines": [
                 "## 📍 Valor Homologado por Cidade\n",
                 "\n",
-                "**Belo Horizonte** concentra **39,9%** dos gastos com localização definida, totalizando **R$ 260,7 milhões**. As 10 cidades com maior gasto somam R$ 418,7 mi, enquanto **R$ 215,6 milhões** foram registrados sem cidade definida."
+                "**Belo Horizonte** concentra **39,9%** do total gasto (ou 59,5% dos gastos com cidade definida), totalizando **R$ 260,7 milhões**. As 10 cidades com maior gasto somam R$ 418,7 mi, enquanto **R$ 215,6 milhões** foram registrados sem cidade definida."
               ]
             }
           },
@@ -523,15 +523,15 @@
               "lines": [
                 "## 🗺️ Distribuição Geográfica\n",
                 "\n",
-                "**Belo Horizonte** responde por **R$ 260,7 milhões** em compras, muito à frente da segunda colocada, **Passos** (R$ 55,8 mi). Isso reflete a concentração de unidades administrativas e campi da UEMG na região metropolitana.\n",
+                "**Belo Horizonte** responde por **R$ 260,7 milhões** em compras, muito à frente da segunda colocada, **Passos** (R$ 55,8 mi). Isso possivelmente reflete a concentração de unidades administrativas da UEMG na capital.\n",
                 "\n",
                 "### Cidades do Interior\n",
                 "\n",
-                "Passos, Frutal, Ituiutaba e Divinópolis formam o grupo de cidades do interior com gastos mais expressivos, variando entre **R$ 19,3 mi** e **R$ 55,8 mi**. Essas cidades abrigam unidades importantes da universidade.\n",
+                "Passos, Frutal, Ituiutaba e Divinópolis formam o grupo de cidades do interior com gastos mais expressivos, variando entre **R$ 19,3 mi** e **R$ 55,8 mi**. Essas cidades possivelmente abrigam unidades relevantes da universidade.\n",
                 "\n",
                 "### Sem Cidade Definida\n",
                 "\n",
-                "Um montante significativo de **R$ 215,6 milhões** (33% do total) está registrado sem cidade específica — possivelmente relacionado a compras centralizadas, contratos estaduais ou itens com abrangência em múltiplas localidades (marcadores como “CONFORME EDITAL” ou “MINAS GERAIS”)."
+                "Um montante significativo de **R$ 215,6 milhões** (33% do total) está registrado sem cidade específica — possivelmente relacionado a compras centralizadas, contratos estaduais ou itens com abrangência em múltiplas localidades (marcadores como \"CONFORME EDITAL\" ou \"MINAS GERAIS\")."
               ]
             }
           },
@@ -620,7 +620,7 @@
               "lines": [
                 "## 📊 Distribuição de Itens por Faixa de Preço vs Estado\n",
                 "\n",
-                "A UEMG comprou **53,3% dos itens na média** da mediana estadual, enquanto **25,8% foram comprados acima** e **20,9% abaixo** da mediana. A análise considera apenas os 6.073 itens com benchmark disponível (excluindo 4.524 itens sem comparação estadual)."
+                "A UEMG comprou **53,3% dos itens próximo da mediana estadual (±10%)**, enquanto **25,8% foram comprados acima** e **20,9% abaixo** da mediana. A análise considera apenas os 6.073 itens com benchmark disponível (excluindo 4.524 itens sem comparação estadual)."
               ]
             }
           },
@@ -638,7 +638,7 @@
               "lines": [
                 "## 💡 Análise de Preços\n",
                 "\n",
-                "**Maioria na média**: Mais da metade dos itens (3.235 itens, 53,3%) foram adquiridos com preços considerados na média da mediana estadual, indicando que a UEMG geralmente paga valores compatíveis com o mercado estadual.\n",
+                "**Maioria próximo da mediana estadual (±10%)**: Mais da metade dos itens (3.235 itens, 53,3%) foram adquiridos com preços considerados próximo da mediana estadual (±10%), indicando que a UEMG geralmente paga valores compatíveis com o mercado estadual.\n",
                 "\n",
                 "**Compras acima da mediana**: Um quarto dos itens (1.566 itens, 25,8%) foi comprado acima da mediana estadual, representando potenciais oportunidades de economia ou situações onde a UEMG pagou mais caro que a média do Estado.\n",
                 "\n",
@@ -668,10 +668,10 @@
                 "\n",
                 "| Eixo | Destaque |\n",
                 "| --- | --- |\n",
-                "| **Evolução temporal** | Pico em **2021** (R$ 156,7 mi homologados); valor atualizado sempre supera o homologado, com destaque para 2009 (3× maior). |\n",
+                "| **Evolução temporal** | Pico em **2021** (R$ 156,7 mi homologados); valor atualizado sempre supera o homologado, com destaque para 2009 (3× maior) (anos antigos acumulam mais aditivos). |\n",
                 "| **Natureza de despesa** | **Serviços** dominam com **58,7%** do total; obras e material permanente somam **37,4%**. |\n",
-                "| **Distribuição geográfica** | **Belo Horizonte** concentra **39,9%** (R$ 260,7 mi); **R$ 215,6 mi** sem cidade definida (33% do total). |\n",
-                "| **Análise de preços** | **53,3%** dos itens comprados na média da mediana estadual; **25,8%** acima e **20,9%** abaixo. 42,7% sem benchmark. |\n",
+                "| **Distribuição geográfica** | **Belo Horizonte** concentra **39,9%** do total (R$ 260,7 mi); **R$ 215,6 mi** sem cidade definida (33% do total). |\n",
+                "| **Análise de preços** | **53,3%** dos itens comprados próximo da mediana estadual (±10%); **25,8%** acima e **20,9%** abaixo. 42,7% sem benchmark. |\n",
                 "\n",
                 "> ⚠️ **2025 é um ano parcial** — os dados estão incompletos e devem ser interpretados com cautela.\n",
                 "\n",

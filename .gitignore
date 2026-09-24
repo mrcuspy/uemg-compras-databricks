@@ -220,3 +220,6 @@ __marimo__/
 # Dados do projeto (não versionar: tamanho e LGPD)
 *.csv
 dados/
+*.crc
+
+
