@@ -141,7 +141,7 @@ uemg-compras-databricks/
 ## ▶️ Como reproduzir
 
 1. Crie uma conta no **Databricks Free Edition**.
-2. Baixe os arquivos de compras no Portal de Compras / Dados Abertos de Minas Gerais: [link do dataset].
+2. Baixe os arquivos de compras no Portal de Dados Abertos de MG · 'Compras e contratos' (CGE-MG): [https://dados.mg.gov.br/dataset/compras_contratos].
    - Fatos: `ft_compras`, `ft_compras_contrato`, `fl_compras_empenho`
    - Dimensões: `dm_orgao_demanda`, `dm_municipio`, `dm_material_servico`, `dm_item_matserv`, `dm_tipo_licitacao`, `dm_contratado`
 3. Crie o catálogo `uemg_compras` e o Volume `bronze.dados_brutos_governomg`. Coloque cada CSV numa subpasta com o nome da tabela:
