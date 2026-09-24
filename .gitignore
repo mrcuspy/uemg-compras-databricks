@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Dados do projeto (não versionar: tamanho e LGPD)
+*.csv
+dados/
